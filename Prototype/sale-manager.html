@@ -13,108 +13,118 @@
 </head>
 <body>
 
-<div class="container ">
-        <p class="text-primary-emphasis fw-bolder">1. Thông tin khách hàng</p>
-        <form class="form-control w-75">
-            <div class="container w-75 m-auto">
-                <div class="row mt-3 g-5">
-                    <div class="col">
-                        <button class="btn btn-primary form-control col mb-2">Chọn khách hàng cũ</button>
-                    </div>
-                    <div class="col">
-                        <button class="form-control btn btn-outline-primary col">Quét mã QR</button>
-                    </div>
+<div class="row my-3 w-75 mx-auto shadow">
+    <div class="col-8 px-0">
+        <form class="mx-auto mb-3">
+            <p class="px-3 fw-bolder text-bg-info">Thông tin khách hàng</p>
+            <div class="row px-5">
+                <div class="col">
+                    <button class="btn btn-secondary form-control col mb-2 ">Chọn khách hàng cũ</button>
                 </div>
-                <div class="row g-2 mt-3">
-                    <div class="col">
-                        <div class="row mb-3">
-                            <label for="name" class="form-label col-2">Họ và tên</label>
-                            <div class="col-10">
-                                <input type="text" class="form-control form-control-sm" id="name">
-                            </div>
-                        </div>
-                        <div class="row mb-3">
-                            <label for="phone" class="form-label col-2">Số điện thoại</label>
-                            <div class="col-10">
-                                <input type="text" class="form-control form-control-sm" id="phone">
-                            </div>
-                        </div>
-
-                        <div class="row mb-3">
-                            <label for="address" class="form-label col-2">Địa chỉ</label>
-                            <div class="col-10">
-                                <input type="text" class="form-control form-control-sm" id="address">
-                            </div>
-                        </div>
-
-                        <div class="row mb-3">
-                            <label for="birthdate" class="form-label col-2">Ngày sinh</label>
-                            <div class="col-10">
-                                <input type="text" class="form-control form-control-sm" id="birthdate">
-                            </div>
-                        </div>
-
-                        <div class="row mb-3">
-                            <label for="email" class="form-label col-2">Email</label>
-                            <div class="col-10">
-                                <input type="text" class="form-control form-control-sm" id="email">
-                            </div>
-                        </div>
-
-                    </div>
+                <div class="col">
+                    <button class="form-control btn btn-secondary col">Quét mã QR</button>
                 </div>
             </div>
-        </form>
-
-
-
-
-    <div class="card w-75 m-auto mt-5">
-        <div class="card-header ">
-            Chọn sản phẩm
-        </div>
-        <form class="form-control">
-
-            <div class="container w-75 m-auto">
-                <div class="row mt-3 g-5">
-                    <div class="col-5">
-                        <button class="btn btn-primary form-control mb-2">Chọn sản phẩm từ kho</button>
+            <div class="row g-2 mt-3 px-5">
+                <div class="col">
+                    <div class="row mb-3">
+                        <label for="name" class="form-label col-3 fw-bold">Họ và tên</label>
+                        <div class="col-9">
+                            <input type="text" class="form-control form-control-sm" id="name">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="phone" class="form-label col-3 fw-bold">Số điện thoại</label>
+                        <div class="col-9">
+                            <input type="text" class="form-control form-control-sm" id="phone">
+                        </div>
                     </div>
 
-                </div>
-                <div class="row g-2 mt-3">
-                    <div class="col">
-                        <div class="row mb-3">
-                            <label for="product-name" class="form-label col-2">Tên sản phẩm</label>
-                            <div class="col-10">
-                                <input type="text" class="form-control form-control-sm" id="product-name">
-                            </div>
+                    <div class="row mb-3">
+                        <label for="address" class="form-label col-3 fw-bold">Địa chỉ</label>
+                        <div class="col-9">
+                            <input type="text" class="form-control form-control-sm" id="address">
                         </div>
-                        <div class="row mb-3">
-                            <label for="price" class="form-label col-2">Đơn giá</label>
-                            <div class="col-10">
-                                <input type="text" class="form-control form-control-sm" id="price">
-                            </div>
-                        </div>
-                        <div class="row mb-3">
-                            <label for="quantity" class="form-label col-2">Số lượng</label>
-                            <div class="col-10">
-                                <input type="text" class="form-control form-control-sm" id="quantity">
-                            </div>
-                        </div>
-
                     </div>
-                </div>
-                <div class="row  g-5">
-                    <div class="col-5">
-                        <button class="btn btn-primary form-control mb-2">Thêm vào giỏ hàng</button>
+
+                    <div class="row mb-3">
+                        <label for="birthdate" class="form-label col-3 fw-bold">Ngày sinh</label>
+                        <div class="col-9">
+                            <input type="text" class="form-control form-control-sm" id="birthdate">
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <label for="email" class="form-label col-3 fw-bold">Email</label>
+                        <div class="col-9">
+                            <input type="text" class="form-control form-control-sm" id="email">
+                        </div>
                     </div>
 
                 </div>
             </div>
+
         </form>
 
+        <form class="mx-auto ">
+            <p class="text-capitalize fw-bolder text-bg-info px-3">Chọn sản phẩm</p>
+
+            <div class="row  px-5">
+                <div class="col-5">
+                    <button class="btn btn-secondary form-control mb-2">Chọn sản phẩm từ kho</button>
+                </div>
+            </div>
+            <div class="row g-2 mt-3 px-5">
+                <div class="col">
+                    <div class="row mb-3">
+                        <label for="product-name" class="form-label col-3 fw-bold">Tên sản phẩm</label>
+                        <div class="col-9">
+                            <input type="text" class="form-control form-control-sm" id="product-name">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="price" class="form-label col-3 fw-bold">Đơn giá</label>
+                        <div class="col-9">
+                            <input type="text" class="form-control form-control-sm" id="price">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="quantity" class="form-label col-3 fw-bold">Số lượng</label>
+                        <div class="col-9">
+                            <input type="text" class="form-control form-control-sm" id="quantity">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row px-5">
+                <div class="col">
+                    <button class="btn btn-info form-control mb-2"> + Thêm sản phẩm</button>
+                </div>
+            </div>
+        </form>
     </div>
+    <div class="col-4 px-0">
+        <form class="mx-auto">
+            <p class="text-capitalize fs-5 fw-bolder text-center text-bg-info">Giỏ hàng</p>
+            <div class="row g-2 mt-3 px-5">
+                <div class="col">
+                    <div class="row mb-3">
+                        <label for="product-name" class="form-label col-3 fw-bold">Tên sản phẩm</label>
+                        <div class="col-9">
+                            <input type="text" class="form-control form-control-sm" id="product-name">
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="row">
+                <button class="btn btn-info "> + Thanh toán</button>
+            </div>
+        </form>
+    </div>
+
 </div>
 </body>
 </html>
